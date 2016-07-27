@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.tictactoe {
+	width: 304px;
+	margin: 0 auto;
+}
+.active {
+	background: gold;
+}
+.status {
+	width: 304px;
+	height: 50px;
+	position: relative;
+	text-align: center;
+	font: normal 32px/50px sans-serif;
+}
+.left, .right {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+.left {
+	left: 0;
+	top: 0;
+}
+.right {
+	right: 0;
+	top: 0;
+}
+.cross {
+	background-image: url(../img/cross.png);
+	background-size: cover;
+}
+.zero {
+	background-image: url(../img/zero.png);
+	background-size: cover;
+}
+.board {
+	border-collapse: collapse;
+}
+.board td {
+	border: 1px solid #000000;
+	width: 100px;
+	height: 100px;
+}
