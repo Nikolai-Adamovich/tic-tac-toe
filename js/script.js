@@ -8,10 +8,6 @@ window.addEventListener('load', function() {
 		},
 		active: 'cross',
 		result: {},
-		/*result: {
-			winner: 'cross',
-			line: [[0, 0], [0, 1], [0,2]]
-		},*/
 		board: [
 			[null, null, null],
 			[null, null, null],
